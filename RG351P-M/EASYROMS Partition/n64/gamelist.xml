@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Mario Kart 64.z64</path>
+		<name>Mario Kart 64</name>
+		<emulator>standalone</emulator>
+		<rating>0</rating>
+		<releasedate>19700101T000000</releasedate>
+		<playcount>5</playcount>
+		<lastplayed>20201111T235848</lastplayed>
+	</game>
+</gameList>

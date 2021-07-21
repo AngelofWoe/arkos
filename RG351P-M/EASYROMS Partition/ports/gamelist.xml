@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Commander Genius.sh</path>
+		<name>Commander Genius</name>
+		<playcount>1</playcount>
+		<lastplayed>20210220T183936</lastplayed>
+	</game>
+	<game>
+		<path>./2048.sh</path>
+		<name>2048</name>
+		<playcount>3</playcount>
+		<lastplayed>20210430T210503</lastplayed>
+	</game>
+	<game>
+		<path>./Cave Story.sh</path>
+		<name>Cave Story</name>
+		<playcount>2</playcount>
+		<lastplayed>20210220T185155</lastplayed>
+	</game>
+	<game>
+		<path>./SDLPoP.sh</path>
+		<name>SDLPoP</name>
+		<playcount>3</playcount>
+		<lastplayed>20210430T210518</lastplayed>
+	</game>
+	<game>
+		<path>./VVVVVV.sh</path>
+		<name>VVVVVV</name>
+		<playcount>1</playcount>
+		<lastplayed>20210430T210549</lastplayed>
+	</game>
+	<game>
+		<path>./Sonic 1.sh</path>
+		<name>Sonic 1</name>
+		<playcount>4</playcount>
+		<lastplayed>20210501T021127</lastplayed>
+	</game>
+</gameList>

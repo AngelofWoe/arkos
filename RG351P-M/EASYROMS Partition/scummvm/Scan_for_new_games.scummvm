@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for f in /roms/scummvm/*/; do
+  if [ -d "$f" ]; then
+    basefilename=$(basename "$f")
+
+    if [[ ! -f "$f/${basefilename,,}.scummvm" ]] && [[ ! -f "$f/${basefilename,,}.SCUMMVM" ]] && [[ ! "$basefilename" = "images" ]]; then
+      touch "$f/${basefilename}.scummvm"
+      echo "${basefilename}" >> "$f/${basefilename}.scummvm"
+      printf "\nFound $basefilename and created ES menu shortcut for it" >> /dev/tty1
+    fi
+  fi
+done
