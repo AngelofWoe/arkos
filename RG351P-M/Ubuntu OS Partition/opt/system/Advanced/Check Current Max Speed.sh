@@ -8,5 +8,5 @@ sudo chmod 777 /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
 
 sudo msgbox "$(lscpu | grep "CPU max MHz")"
 
-sudo kill $(pidof rg351p-js2xbox)
+sudo kill "$(pidof rg351p-js2xbox)"
 sudo rm /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
