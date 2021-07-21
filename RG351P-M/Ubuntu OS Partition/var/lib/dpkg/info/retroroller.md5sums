@@ -1,0 +1,15 @@
+83f64f2ae69243c0c8deaf615ac32770  home/odroid/.config/retroarch/retroarch.cfg
+0f7b3a8f2e9d5b17fc0cbeed5e06de52  home/odroid/.config/retroarch32/retroarch.cfg
+ccbc5dd3a41d58c31312e3d88e603b3a  lib/systemd/system-sleep/sleep
+4b235ce7d75e015f86241669c9e6b94e  opt/retroarch/bin/retroarch
+dc31ae1006068711975523ac77aead5c  opt/retroarch/bin/retroarch32
+8003a5153e2356a53a3161d1e975e84b  opt/retroroller/cmds/retroarch.sh
+feb9a2f37c489527d0dcf7387f1910b1  opt/retroroller/cmds/retroarch32.sh
+aa9372eb163c1c91bb61e3b77ec99e52  opt/retroroller/scripts/retroroller_boot.sh
+cf6d3361bb6238407a7147ce222b5493  opt/retroroller/services/oga_events.service
+1dec39503f171e7cc0e9513c33437f70  opt/retroroller/services/retroroller_boot.service
+347ff8f2cd2bfc5d5834cf40cdaa9b2b  usr/local/bin/oga_events.py
+e7e70a62426cc23595f8d9719536edb1  usr/local/bin/retroarch
+d1f555e7a66eb4bb629e8f24edbc14d3  usr/local/bin/retroarch32
+f0505dab4d4bb9b9ee2dc15f7fb321e7  usr/local/lib/aarch64-linux-gnu/librga.so
+c28eb4e1a89f48428302f7295a2ee645  usr/local/lib/arm-linux-gnueabihf/librga.so

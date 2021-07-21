@@ -1,0 +1,7 @@
+includedir=/usr/include/mirclient
+
+Name: mirclientcpp
+Description: C++ wrapper for mirclient
+Version: 2.7.0
+Requires: mirclient
+Cflags: -I${includedir}

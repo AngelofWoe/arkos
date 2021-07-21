@@ -1,0 +1,15 @@
+[Unit]
+Description=TI99 Exit Hotkey service
+
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+
+ExecStart=/usr/local/bin/ti99keydemon.py
+
+[Install]
+WantedBy=multi-user.target
+

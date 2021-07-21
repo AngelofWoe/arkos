@@ -1,0 +1,3 @@
+#!/bin/bash
+systemctl enable audiopath.service >/dev/null || true
+deb-systemd-invoke start audiopath.service >/dev/null || true

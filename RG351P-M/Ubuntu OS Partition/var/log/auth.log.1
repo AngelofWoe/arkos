@@ -1,0 +1,471 @@
+Aug  9 03:54:54 goadvance sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/timedatectl set-ntp 1
+Aug  9 03:54:54 goadvance sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 03:54:54 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:54:54 goadvance sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start smbd
+Aug  9 03:54:54 goadvance sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 03:54:55 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:54:55 goadvance sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start ssh.service
+Aug  9 03:54:55 goadvance sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 03:54:55 goadvance sshd[484]: Server listening on 0.0.0.0 port 22.
+Aug  9 03:54:55 goadvance sshd[484]: Server listening on :: port 22.
+Aug  9 03:54:55 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:55:48 goadvance sshd[500]: Accepted password for odroid from 192.168.254.22 port 54919 ssh2
+Aug  9 03:55:48 goadvance sshd[500]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Aug  9 03:55:49 goadvance systemd-logind[314]: New session c1 of user odroid.
+Aug  9 03:55:49 goadvance systemd: pam_unix(systemd-user:session): session opened for user odroid by (uid=0)
+Aug  9 03:57:03 goadvance sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 TheraUpdate1.sh
+Aug  9 03:57:03 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 03:57:03 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:57:03 goadvance sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=./TheraUpdate1.sh
+Aug  9 03:57:03 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 03:57:08 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/ping -c5 -w5 github.com
+Aug  9 03:57:08 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 03:57:13 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:57:38 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/apt update -y
+Aug  9 03:57:38 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 03:58:01 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:58:01 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/apt-mark hold linux-odroid-go2
+Aug  9 03:58:01 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 03:58:05 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 03:58:06 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get upgrade -y
+Aug  9 03:58:06 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:38 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:38 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mkdir /boot/BMPs
+Aug  9 04:05:38 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:38 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:39 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/BMPs/logo1.bmp -O /boot/BMPs/logo1.bmp
+Aug  9 04:05:39 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:39 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:39 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/BMPs/logo2.bmp -O /boot/BMPs/logo2.bmp
+Aug  9 04:05:40 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:40 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:40 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/BMPs/logo3.bmp -O /boot/BMPs/logo3.bmp
+Aug  9 04:05:40 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:41 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:41 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget -nc https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/imageshift.sh -P /home/odroid/.config
+Aug  9 04:05:41 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/crontab -l
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget -nc https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/imageshift.sh -P /home/odroid/.config/
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /home/odroid/.config/imageshift.sh
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/crontab -l
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/crontab -
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:42 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/service cron reload
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:42 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:43 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mkdir /etc/emulationstation/themes/es-theme-super-retro-oga/
+Aug  9 04:05:43 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:43 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:43 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/tiduscrying/es-theme-super-retro-oga.git /etc/emulationstation/themes/es-theme-super-retro-oga/.
+Aug  9 04:05:43 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:44 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:45 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/tar -xf es-theme-freeplay.tar -C /etc/emulationstation/themes/
+Aug  9 04:05:45 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm es-theme-freeplay.tar
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/cp /etc/emulationstation/es_systems.cfg /etc/emulationstation/es_systems.cfg.update1.bak
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -i s+retrorun32 -s ~ -d /opt/libretro/flycast /opt/libretro/flycast/flycast_libretro.so+/usr/local/bin/retroarch -L /home/odroid/.config/retroarch/cores/flycast_libretro.so+g /etc/emulationstation/es_systems.cfg
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /opt/ppsspp/PPSSPPSDL /opt/ppsspp/PPSSPPSDL.update1.bak
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:50 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/ppsspp/PPSSPPSDL
+Aug  9 04:05:50 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:05:50 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:05:51 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/service emulationstation stop
+Aug  9 04:05:51 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:08 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:08 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /usr/bin/emulationstation/emulationstation /usr/bin/emulationstation/emulationstation.update1.bak
+Aug  9 04:06:08 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:08 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:08 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/emulationstation/emulationstation -P /usr/bin/emulationstation/
+Aug  9 04:06:08 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:09 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:09 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/emulationstation/system.png -O /etc/emulationstation/themes/Retro Arena Redux/retropie/system.png
+Aug  9 04:06:09 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:10 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:10 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/es_input_paging.txt -O /home/odroid/es_input_paging.txt
+Aug  9 04:06:10 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:10 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /\/inputConfig/{r /home/odroid/es_input_paging.txt -e d} /etc/emulationstation/es_input.cfg
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/cp /etc/emulationstation/es_input.cfg /etc/emulationstation/es_input.cfg.update1.bak
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /home/odroid/es_input_temp.cfg /etc/emulationstation/es_input.cfg
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /usr/bin/emulationstation/emulationstation
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /home/odroid/es_input_paging.txt
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /opt/retroarch/bin/retroarch /opt/retroarch/bin/retroarch.update1.bak
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:11 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /opt/retroarch/bin/retroarch32 /opt/retroarch/bin/retroarch32.update1.bak
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:11 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:15 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/ra_save_dir.txt -P /home/odroid/
+Aug  9 04:06:15 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:16 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/ra_savestate_dir.txt -P /home/odroid/
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:16 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /savefiles_in_content_dir/{r /home/odroid/ra_save_dir.txt -e d} /home/odroid/.config/retroarch/retroarch.cfg
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:16 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /savefiles_in_content_dir/{r /home/odroid/ra_save_dir.txt -e d} /home/odroid/.config/retroarch32/retroarch.cfg
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:16 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:16 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /home/odroid/retroarch64.cfg /home/odroid/.config/retroarch/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /home/odroid/retroarch32.cfg /home/odroid/.config/retroarch32/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /home/odroid/ra_save_dir.txt
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /savestates_in_content_dir/{r /home/odroid/ra_savestate_dir.txt -e d} /home/odroid/.config/retroarch/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /savestates_in_content_dir/{r /home/odroid/ra_savestate_dir.txt -e d} /home/odroid/.config/retroarch32/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /home/odroid/retroarch64.cfg /home/odroid/.config/retroarch/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /home/odroid/retroarch32.cfg /home/odroid/.config/retroarch32/retroarch.cfg
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /home/odroid/ra_savestate_dir.txt
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:06:17 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/apt -y install libqt5gui5 libv4l-dev
+Aug  9 04:06:17 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:45 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:45 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/retroarch/bin/retroarch
+Aug  9 04:07:45 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:45 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:45 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/retroarch/bin/retroarch32
+Aug  9 04:07:45 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:45 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/cp /etc/emulationstation/es_systems.cfg /etc/emulationstation/es_systems.cfg.update1.bak
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -i /Pico8/,+8d /etc/emulationstation/es_systems.cfg
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/es_ports_entry.txt -O /home/odroid/es_ports_entry.txt
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:46 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /Quake/,+5d -e /quake/{r /home/odroid/es_ports_entry.txt -e d} /etc/emulationstation/es_systems.cfg
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:46 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /home/odroid/es_systems_temp.cfg /etc/emulationstation/es_systems.cfg
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /home/odroid/es_ports_entry.txt
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mkdir /roms/ports
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mkdir /roms/ports/pico-8
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /roms/quake /roms/ports/quake
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mkdir /roms/ports/quake/quakepaks
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /roms/ports/quake/*.pak /roms/quake/quakepaks
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/touch /roms/ports/quake/quakepaks/PUT YOUR PAK FILES HERE
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:47 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /roms/pico-8/Pico-8.sh /roms/ports/pico-8/
+Aug  9 04:07:47 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:48 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/touch /roms/ports/pico-8/PUT YOUR PICO-8 PNG FILES HERE
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:48 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm -rf /roms/pico-8
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:48 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /roms/ports/pico-8/Pico-8.sh
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:48 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/ports/Pico-8.sh -P /roms/ports/
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:48 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:49 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/ports/Quake.sh -P /roms/ports/
+Aug  9 04:07:49 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:49 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:49 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/ports/opt/pico-8.sh -O /opt/pico-8/pico-8.sh
+Aug  9 04:07:49 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:50 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:50 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/pico-8/pico-8.sh
+Aug  9 04:07:50 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:50 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:50 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable nmbd
+Aug  9 04:07:50 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:52 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:52 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/system/Fix%20NTFS%20Partition.sh -O /opt/system/Fix NTFS Partition.sh
+Aug  9 04:07:52 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:52 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:52 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/system/Fix NTFS Partition.sh
+Aug  9 04:07:52 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:52 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:53 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/system/RK2020%20Genuine%20Check.sh -O /opt/system/RK2020 Genuine Check.sh
+Aug  9 04:07:53 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:53 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:53 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 775 /opt/system/RK2020 Genuine Check.sh
+Aug  9 04:07:53 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:53 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:53 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/smbpasswd -s -a odroid
+Aug  9 04:07:53 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:54 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:54 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/samba/smb.conf -O /etc/samba/smb.conf
+Aug  9 04:07:54 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:55 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:55 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/system/Disable%20Remote%20Services.sh -O /opt/system/Disable Remote Services.sh
+Aug  9 04:07:55 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:55 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:55 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/system/Enable%20Remote%20Services.sh -O /opt/system/Enable Remote Services.sh
+Aug  9 04:07:55 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:56 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/system/Enable Remote Services.sh
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:56 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /opt/system/Disable Remote Services.sh
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:56 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/wget https://github.com/christianhaitian/rk2020/raw/master/ForThera/Update1/es_setting_change.txt -O /home/odroid/es_setting_change.txt
+Aug  9 04:07:56 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:57 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -e /ScreenSaverBehavior/{r /home/odroid/es_setting_change.txt -e d} /home/odroid/.emulationstation/es_settings.cfg
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:57 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv -f /home/odroid/newes_settings.cfg /home/odroid/.emulationstation/es_settings.cfg
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:57 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/rm /home/odroid/es_setting_change.txt
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:07:57 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:07:58 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/service emulationstation start
+Aug  9 04:07:58 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:08:01 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:08:01 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/sed -i s/goadvance/rk2020/g /etc/hostname
+Aug  9 04:08:01 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:08:01 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:08:01 goadvance sudo:     root : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/ln -sf /usr/lib/arm-linux-gnueabihf/libSDL2-2.0.so.0.10.0 /usr/lib/arm-linux-gnueabihf/libSDL2-2.0.so.0
+Aug  9 04:08:01 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:08:01 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:08:02 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:12:56 goadvance sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/nano /etc/emulationstation/es_systems.cfg
+Aug  9 04:12:56 goadvance sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:13:28 goadvance sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:17:04 goadvance CRON[10454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  9 04:17:04 goadvance CRON[10454]: pam_unix(cron:session): session closed for user root
+Aug  9 04:18:54 goadvance sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Aug  9 04:18:54 goadvance sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 04:18:54 goadvance sshd[484]: Received signal 15; terminating.
+Aug  9 04:18:54 goadvance sshd[500]: pam_unix(sshd:session): session closed for user odroid
+Aug  9 04:19:11 rk2020 CRON[339]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  9 04:19:11 rk2020 systemd-logind[336]: Configuration file /etc/systemd/logind.conf is marked executable. Please remove executable permission bits. Proceeding anyway.
+Aug  9 04:19:11 rk2020 systemd-logind[336]: Configuration file /etc/systemd/logind.conf is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Aug  9 04:19:11 rk2020 systemd-logind[336]: New seat seat0.
+Aug  9 04:19:11 rk2020 systemd-logind[336]: Watching system buttons on /dev/input/event0 (rk8xx_pwrkey)
+Aug  9 04:19:11 rk2020 CRON[339]: pam_unix(cron:session): session closed for user root
+Aug  9 04:21:30 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/timedatectl set-ntp 1
+Aug  9 04:21:30 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 04:21:31 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:21:31 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start smbd
+Aug  9 04:21:31 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 04:21:33 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:21:33 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start nmbd
+Aug  9 04:21:33 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 04:21:33 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:21:33 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start ssh.service
+Aug  9 04:21:33 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 04:21:33 rk2020 sshd[522]: Server listening on 0.0.0.0 port 22.
+Aug  9 04:21:33 rk2020 sshd[522]: Server listening on :: port 22.
+Aug  9 04:21:33 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:21:38 rk2020 sshd[536]: Accepted password for odroid from 192.168.254.22 port 55105 ssh2
+Aug  9 04:21:38 rk2020 sshd[536]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Aug  9 04:21:38 rk2020 systemd-logind[336]: New session c1 of user odroid.
+Aug  9 04:21:38 rk2020 systemd: pam_unix(systemd-user:session): session opened for user odroid by (uid=0)
+Aug  9 04:26:50 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/nano /boot/firstboot.sh.disable
+Aug  9 04:26:50 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:34:30 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:34:44 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /boot/firstboot.sh.disable /boot/firstboot.sh
+Aug  9 04:34:44 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:34:44 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 04:35:27 rk2020 smbd: pam_unix(samba:session): session closed for user nobody
+Aug  9 04:35:36 rk2020 smbd: pam_unix(samba:session): session closed for user nobody
+Aug  9 04:36:29 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Aug  9 04:36:29 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 04:36:29 rk2020 sshd[522]: Received signal 15; terminating.
+Aug  9 04:36:29 rk2020 sshd[536]: pam_unix(sshd:session): session closed for user odroid
+Aug  9 04:36:29 rk2020 sshd[536]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Aug  9 13:54:00 rk2020 CRON[338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug  9 13:54:01 rk2020 systemd-logind[327]: Configuration file /etc/systemd/logind.conf is marked executable. Please remove executable permission bits. Proceeding anyway.
+Aug  9 13:54:01 rk2020 systemd-logind[327]: Configuration file /etc/systemd/logind.conf is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Aug  9 13:54:01 rk2020 systemd-logind[327]: New seat seat0.
+Aug  9 13:54:01 rk2020 systemd-logind[327]: Watching system buttons on /dev/input/event0 (rk8xx_pwrkey)
+Aug  9 13:54:01 rk2020 CRON[338]: pam_unix(cron:session): session closed for user root
+Aug  9 13:54:19 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/timedatectl set-ntp 1
+Aug  9 13:54:19 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 13:54:20 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 13:54:20 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start smbd
+Aug  9 13:54:20 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 13:54:22 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 13:54:22 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start nmbd
+Aug  9 13:54:22 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 13:54:22 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 13:54:22 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start ssh.service
+Aug  9 13:54:22 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug  9 13:54:22 rk2020 sshd[486]: Server listening on 0.0.0.0 port 22.
+Aug  9 13:54:22 rk2020 sshd[486]: Server listening on :: port 22.
+Aug  9 13:54:22 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 13:54:36 rk2020 sshd[503]: Accepted password for odroid from 192.168.254.22 port 56003 ssh2
+Aug  9 13:54:36 rk2020 sshd[503]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Aug  9 13:54:36 rk2020 systemd-logind[327]: New session c1 of user odroid.
+Aug  9 13:54:36 rk2020 systemd: pam_unix(systemd-user:session): session opened for user odroid by (uid=0)
+Aug  9 13:55:17 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod 777 /home/odroid/.config/imageshift.sh /etc/emulationstation/es_systems.cfg /etc/emulationstation/es_input.cfg /home/odroid/.emulationstation/es_settings.cfg /home/odroid/.config/retroarch/retroarch.cfg /home/odroid/.config/retroarch32/retroarch.cfg /opt/retroarch/bin/retroarch /opt/retroarch/bin/retroarch32
+Aug  9 13:55:17 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 13:55:17 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 13:56:37 rk2020 sshd[563]: Accepted password for odroid from 192.168.254.22 port 56026 ssh2
+Aug  9 13:56:37 rk2020 sshd[563]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Aug  9 13:56:37 rk2020 systemd-logind[327]: New session c2 of user odroid.
+Aug  9 13:59:11 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod -R 777 /etc/emulationstation/themes/es-theme-super-retro-oga/
+Aug  9 13:59:11 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 13:59:11 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:01:26 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chown -R odroid:odroid /etc/emulationstation/themes/es-theme-super-retro-oga/
+Aug  9 14:01:26 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:01:26 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:01:54 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chown -R odroid:odroid /etc/emulationstation/themes/es-theme-freeplay/
+Aug  9 14:01:54 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:01:54 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:02:11 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/chmod -R 777 /etc/emulationstation/themes/es-theme-freeplay/
+Aug  9 14:02:11 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:02:11 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:04:11 rk2020 sshd[724]: Accepted password for odroid from 192.168.254.22 port 56105 ssh2
+Aug  9 14:04:11 rk2020 sshd[724]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Aug  9 14:04:11 rk2020 systemd-logind[327]: New session c3 of user odroid.
+Aug  9 14:09:28 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/nano /opt/system/RK2020 Genuine Check.sh
+Aug  9 14:09:28 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:09:48 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:09:58 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/nano /opt/system/RK2020 Genuine Check.sh
+Aug  9 14:09:58 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:11:00 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:16:46 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/mv /boot/firstboot.sh.disable /boot/firstboot.sh
+Aug  9 14:16:46 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:16:46 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:16:53 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Aug  9 14:16:53 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Aug  9 14:16:54 rk2020 sshd[563]: pam_unix(sshd:session): session closed for user odroid
+Aug  9 14:16:54 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Aug  9 14:16:54 rk2020 sshd[503]: pam_unix(sshd:session): session closed for user odroid
+Aug  9 14:16:54 rk2020 sshd[486]: Received signal 15; terminating.
+Aug  9 14:16:54 rk2020 sshd[724]: pam_unix(sshd:session): session closed for user odroid
+Aug  9 14:16:54 rk2020 sshd[724]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Sep  5 02:40:47 rk2020 CRON[337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 02:40:47 rk2020 systemd-logind[321]: Configuration file /etc/systemd/logind.conf is marked executable. Please remove executable permission bits. Proceeding anyway.
+Sep  5 02:40:47 rk2020 systemd-logind[321]: Configuration file /etc/systemd/logind.conf is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Sep  5 02:40:47 rk2020 systemd-logind[321]: New seat seat0.
+Sep  5 02:40:47 rk2020 systemd-logind[321]: Watching system buttons on /dev/input/event0 (rk8xx_pwrkey)
+Sep  5 02:40:48 rk2020 CRON[337]: pam_unix(cron:session): session closed for user root
+Sep  5 03:00:53 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/timedatectl set-ntp 1
+Sep  5 03:00:53 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 03:00:53 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:00:54 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start smbd
+Sep  5 03:00:54 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 03:00:55 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:00:55 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start nmbd
+Sep  5 03:00:55 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 03:00:55 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:00:55 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start ssh.service
+Sep  5 03:00:55 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 03:00:55 rk2020 sshd[551]: Server listening on 0.0.0.0 port 22.
+Sep  5 03:00:55 rk2020 sshd[551]: Server listening on :: port 22.
+Sep  5 03:00:55 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:01:28 rk2020 sshd[568]: Accepted password for odroid from 192.168.254.22 port 55499 ssh2
+Sep  5 03:01:28 rk2020 sshd[568]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Sep  5 03:01:29 rk2020 systemd-logind[321]: New session c1 of user odroid.
+Sep  5 03:01:29 rk2020 systemd: pam_unix(systemd-user:session): session opened for user odroid by (uid=0)
+Sep  5 03:04:41 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable rsyslog
+Sep  5 03:04:41 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:04:43 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:04:44 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable logrotate
+Sep  5 03:04:44 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:04:44 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:05:05 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable logrotate
+Sep  5 03:05:05 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:05:06 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:05:41 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl mask systemd-journald.service
+Sep  5 03:05:41 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:05:42 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:05:53 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl mask systemd-journal-flush.service
+Sep  5 03:05:53 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:05:54 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:06:07 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable ModemManager.service
+Sep  5 03:06:07 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:06:08 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:06:22 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl disable polkit.service
+Sep  5 03:06:22 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:06:23 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:07:05 rk2020 sshd[823]: Accepted password for odroid from 192.168.254.22 port 55642 ssh2
+Sep  5 03:07:05 rk2020 sshd[823]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Sep  5 03:07:05 rk2020 systemd-logind[321]: New session c2 of user odroid.
+Sep  5 03:08:26 rk2020 sshd[845]: Accepted password for odroid from 192.168.254.22 port 55652 ssh2
+Sep  5 03:08:26 rk2020 sshd[845]: pam_unix(sshd:session): session opened for user odroid by (uid=0)
+Sep  5 03:08:26 rk2020 systemd-logind[321]: New session c3 of user odroid.
+Sep  5 03:10:01 rk2020 CRON[901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 03:10:02 rk2020 CRON[901]: pam_unix(cron:session): session closed for user root
+Sep  5 03:17:01 rk2020 CRON[955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 03:17:01 rk2020 CRON[955]: pam_unix(cron:session): session closed for user root
+Sep  5 03:42:35 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/etc/emulationstation ; USER=root ; COMMAND=/usr/bin/chown odroid es_systems.cfg
+Sep  5 03:42:35 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:42:35 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 03:43:31 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/etc/emulationstation ; USER=root ; COMMAND=/usr/bin/chown odroid:odroid es_systems.cfg
+Sep  5 03:43:32 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 03:43:32 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 04:17:01 rk2020 CRON[1148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 04:17:01 rk2020 CRON[1148]: pam_unix(cron:session): session closed for user root
+Sep  5 05:09:31 rk2020 sudo:   odroid : TTY=pts/0 ; PWD=/etc/emulationstation ; USER=root ; COMMAND=/usr/bin/systemctl stop rsyslog
+Sep  5 05:09:31 rk2020 sudo: pam_unix(sudo:session): session opened for user root by odroid(uid=0)
+Sep  5 06:45:59 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start logrotate
+Sep  5 06:45:59 rk2020 kernel: [    8.127532] systemd-logind[321]: Configuration file /etc/systemd/logind.conf is marked executable. Please remove executable permission bits. Proceeding anyway.
+Sep  5 06:45:59 rk2020 kernel: [    8.127584] systemd-logind[321]: Configuration file /etc/systemd/logind.conf is marked world-writable. Please remove world writability permission bits. Proceeding anyway.
+Sep  5 06:45:59 rk2020 kernel: [    8.143824] systemd-logind[321]: New seat seat0.
+Sep  5 06:45:59 rk2020 kernel: [    8.180038] systemd-logind[321]: Watching system buttons on /dev/input/event0 (rk8xx_pwrkey)
+Sep  5 06:45:59 rk2020 kernel: [   39.256628] systemd-logind[321]: New session c1 of user odroid.
+Sep  5 06:45:59 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 06:45:59 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 06:45:59 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl start systemd-journald
+Sep  5 06:45:59 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 06:45:59 rk2020 sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 06:46:34 rk2020 sudo:   odroid : TTY=unknown ; PWD=/home/odroid ; USER=root ; COMMAND=/usr/bin/systemctl stop rsyslog
+Sep  5 06:46:34 rk2020 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

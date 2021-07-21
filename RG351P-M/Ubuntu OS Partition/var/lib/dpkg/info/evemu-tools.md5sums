@@ -1,0 +1,8 @@
+3a25cbdc9403d14034fc28a7c35d0038  usr/bin/evemu-describe
+6e88d7d137555c4448b83ad4ed590b41  usr/bin/evemu-device
+f3fbb9bb42b675c4abdd088c8711790e  usr/bin/evemu-event
+6e88d7d137555c4448b83ad4ed590b41  usr/bin/evemu-play
+3a25cbdc9403d14034fc28a7c35d0038  usr/bin/evemu-record
+f0564ea15a3571925f132d6f30ee90f4  usr/share/doc/evemu-tools/copyright
+c1b8411bcd629ce67481032cfb0b254e  usr/share/man/man1/evemu-describe.1.gz
+ea7803d8130d792d2c69aee5722217e4  usr/share/man/man1/evemu-device.1.gz

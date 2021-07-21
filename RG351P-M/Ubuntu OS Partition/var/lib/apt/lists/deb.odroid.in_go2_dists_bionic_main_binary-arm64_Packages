@@ -1,0 +1,47 @@
+Package: bootini
+Installed-Size: 24
+Maintainer: mauro.ribeiro@hardkernel.com
+Architecture: arm64
+Version: 20201213-8
+Provides: bootini
+Priority: extra
+Section: multimedia
+Filename: pool/main/b/bootini/bootini_20201213-8_arm64.deb
+Size: 1468
+SHA256: 502e960353e839658d2f865ea8d17691e3694585373b55affb6e6c2664808281
+SHA1: 530ca38ae79ddd7af4f65682163563448e8c4dbf
+MD5sum: ef77357a01b7a3f61ed2ed8683905ee9
+Description: ODROID-GO2 boot.ini
+
+Package: linux-odroid-go2
+Version: 4.4.189-42
+Architecture: arm64
+Maintainer: Mauro Ribeiro <mauro.ribeiro@hardkernel.com>
+Installed-Size: 427616
+Depends: libc6 (>= 2.17), libssl1.1 (>= 1.1.0), initramfs-tools, u-boot-tools, uboot, bootini
+Homepage: https://github.com/hardkernel/linux
+Priority: high
+Section: system
+Filename: pool/main/l/linux-odroid-go2/linux-odroid-go2_4.4.189-42_arm64.deb
+Size: 64196260
+SHA256: 4321b2d84760ea7db1d58ea5073e4f5f3912fdac169f924d3b04a2bfca4e2d39
+SHA1: c2c41e413c5c6cd3dd5d01f949c2399be7980ec8
+MD5sum: 47192731102dc0761ffae034dcc298c9
+Description: Linux kernel for ODROID GO2 Advanced
+ Linux kernel for ODROID-GO2 Advanced
+
+Package: uboot
+Installed-Size: 8360
+Maintainer: mauro.ribeiro@hardkernel.com
+Architecture: arm64
+Version: 20210110-9
+Provides: uboot
+Priority: extra
+Section: multimedia
+Filename: pool/main/u/uboot/uboot_20210110-9_arm64.deb
+Size: 625556
+SHA256: bdcf7cc9774ebcc48e615c514edb7364f3d4b2bd7212de28af734a8c9c6432ae
+SHA1: 23179bf5dfa95805a125d93892ad182eb81b4418
+MD5sum: 3ee2128c0eb3293e59ef3bb411b82d22
+Description: ODROID-GO2 U-Boot 2017.09
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cursound=$(cat /sys/class/backlight/backlight/brightness);
+maxsound=255;
+
+echo $((200 * $cursound/$maxsound - 100 * $cursound/$maxsound ))
+

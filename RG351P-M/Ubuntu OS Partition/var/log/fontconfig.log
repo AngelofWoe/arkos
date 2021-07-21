@@ -1,0 +1,13 @@
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/truetype: skipping, existing cache is valid: 0 fonts, 3 dirs
+/usr/share/fonts/truetype/dejavu: skipping, existing cache is valid: 6 fonts, 0 dirs
+/usr/share/fonts/truetype/droid: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/noto: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/droid: skipping, looped directory detected
+/usr/share/fonts/truetype/noto: skipping, looped directory detected
+/var/cache/fontconfig: cleaning cache directory
+fc-cache: succeeded

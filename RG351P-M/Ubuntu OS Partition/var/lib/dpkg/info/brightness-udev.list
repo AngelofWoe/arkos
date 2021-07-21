@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/udev
+/lib/udev/rules.d
+/lib/udev/rules.d/90-brightnessctl.rules
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/brightness-udev
+/usr/share/doc/brightness-udev/changelog.Debian.gz
+/usr/share/doc/brightness-udev/copyright

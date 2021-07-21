@@ -1,0 +1,9 @@
+[2021-04-30 21:04:25] ScummVM 2.3.0git15280-g26b7846349 (Apr 15 2021 10:38:48)
+[2021-04-30 21:04:25] Vorbis FLAC MP3 ALSA SEQ sndio TiMidity RGB zLib MPEG2 FluidSynth Theora AAC A/52 FreeType2 FriBiDi JPEG PNG VirtualKeyboard cloud (servers, local) TinyGL OpenGL 
+[2021-04-30 21:04:25] --- Log opened.
+[2021-04-30 21:04:25] WARNING: Could not get GLSL version!
+[2021-04-30 21:04:25] Game controller DB file loaded: /opt/scummvm/extra/gamecontrollerdb.txt
+[2021-04-30 21:04:25] Using game controller: OpenSimHardware OSH PB Controller
+[2021-04-30 21:04:26] Virtual keyboard pack 'vkeybd_default' loaded successfully
+[2021-04-30 21:04:26] Using game controller: OpenSimHardware OSH PB Controller
+[2021-04-30 21:04:28] --- Log closed successfully.

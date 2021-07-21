@@ -1,0 +1,3 @@
+076e1a4deadded6869e3d61c37100212  lib/udev/rules.d/90-brightnessctl.rules
+25695f6a72946daa02de8810442f79ce  usr/share/doc/brightness-udev/changelog.Debian.gz
+c3364c2a89b7254eb66c1ff598ab5b5c  usr/share/doc/brightness-udev/copyright

@@ -1,0 +1,3 @@
+#!/bin/bash
+deb-systemd-invoke stop audiopath.service >/dev/null || true
+systemctl disable audiopath.service >/dev/null || true

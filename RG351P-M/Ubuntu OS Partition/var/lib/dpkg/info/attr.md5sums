@@ -1,0 +1,7 @@
+f6744a3b706ff57290ec80bdc34c889b  usr/bin/attr
+1702912b7c3a7ef58e026962e20afaf9  usr/bin/getfattr
+ec68e13ddd8763c9a6c62a8c1974408c  usr/bin/setfattr
+1e0c5c8b55170890f960aad90336aaed  usr/share/doc/attr/copyright
+40fda809f0cc2a154b8d7ab58621c74b  usr/share/man/man1/attr.1.gz
+b1000cb51bfc405cb179d2663f9de62b  usr/share/man/man1/getfattr.1.gz
+e87d0f8e6d825b1b68c62ae1e23dd2e6  usr/share/man/man1/setfattr.1.gz

@@ -1,0 +1,6 @@
+c7a8d4c2784ec9e8ae6a4093a07f317f  usr/lib/aarch64-linux-gnu/libwbclient.so.0.15
+d5b2218c580bdd22d3ba8737b13c3133  usr/lib/aarch64-linux-gnu/samba/libreplace.so.0
+a0ffc9c5a0e24f60f7a1e27dde0f508e  usr/lib/aarch64-linux-gnu/samba/libwinbind-client.so.0
+2160b044fb8cb04b728cdf2ca9329f9d  usr/share/doc/libwbclient0/NEWS.Debian.gz
+25670914392ba82b64a4b923df512cb7  usr/share/doc/libwbclient0/changelog.Debian.gz
+f31714317c2cba07c61bb2b605348980  usr/share/doc/libwbclient0/copyright

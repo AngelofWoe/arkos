@@ -1,0 +1,24 @@
+
+Start-Date: 2020-11-30  00:12:45
+Commandline: apt -y install liba52-0.7.4:armhf libcurl4:armhf libmad0:armhf libjpeg62:armhf libmpeg2-4:armhf libogg-dbg:armhf libvorbis0a:armhf libflac8:armhf libpnglite0:armhf libtheora0:armhf libfaad2:armhf libfluidsynth1:armhf libfreetype6:armhf libspeechd2:armhf
+Requested-By: ark (1002)
+Install: libgssapi3-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libnghttp2-14:armhf (1.39.2-1, automatic), libwind0-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libsasl2-modules-db:armhf (2.1.27+dfsg-1ubuntu0.1, automatic), libcurl4:armhf (7.65.3-1ubuntu3.1), libspeechd2:armhf (0.9.1-2), libldap-2.4-2:armhf (2.4.48+dfsg-1ubuntu1.2, automatic), libssh-4:armhf (0.9.0-1ubuntu1.4, automatic), libheimntlm0-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libpsl5:armhf (0.20.2-2, automatic), libsqlite3-0:armhf (3.29.0-2ubuntu0.3, automatic), liba52-0.7.4:armhf (0.7.4-19), libheimbase1-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libpnglite0:armhf (0.1.17-2), libsasl2-2:armhf (2.1.27+dfsg-1ubuntu0.1, automatic), libjpeg62:armhf (1:6b2-3), libfluidsynth1:armhf (1.1.11-4), librtmp1:armhf (2.4+20151223.gitfa8646d.1-2, automatic), libsasl2-modules:armhf (2.1.27+dfsg-1ubuntu0.1, automatic), libhcrypto4-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libmad0:armhf (0.15.1b-10ubuntu1), libreadline8:armhf (8.0-3, automatic), libogg-dbg:armhf (1.3.4-0ubuntu1), libdb5.3:armhf (5.3.28+dfsg1-0.6ubuntu1, automatic), libroken18-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libasn1-8-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libkrb5-26-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libhx509-5-heimdal:armhf (7.5.0+dfsg-3build1, automatic), libfaad2:armhf (2.8.8-3.2)
+End-Date: 2020-11-30  00:12:57
+
+Start-Date: 2020-12-19  01:43:28
+Commandline: apt -y install espeak espeak-data
+Requested-By: ark (1002)
+Install: libportaudio2:arm64 (19.6.0-1, automatic), libespeak1:arm64 (1.48.04+dfsg-7build1, automatic), espeak-data:arm64 (1.48.04+dfsg-7build1), espeak:arm64 (1.48.04+dfsg-7build1), libsonic0:arm64 (0.2.0-7, automatic)
+End-Date: 2020-12-19  01:43:33
+
+Start-Date: 2021-04-30  20:53:11
+Commandline: apt -y install brightnessctl
+Requested-By: ark (1002)
+Install: brightnessctl:arm64 (0.4-2), brightness-udev:arm64 (0.4-2, automatic)
+End-Date: 2021-04-30  20:53:14
+
+Start-Date: 2021-04-30  20:55:15
+Commandline: apt -y install ffmpeg
+Requested-By: ark (1002)
+Install: ffmpeg:arm64 (7:4.1.4-1build2), libavresample4:arm64 (7:4.1.4-1build2, automatic)
+End-Date: 2021-04-30  20:55:21

@@ -1,0 +1,4 @@
+home/odroid/.config/retroarch32/retroarch.cfg
+home/odroid/.config/retroarch/retroarch.cfg
+usr/local/bin/oga_events.py
+opt/retroroller/scripts/retroroller_boot.sh

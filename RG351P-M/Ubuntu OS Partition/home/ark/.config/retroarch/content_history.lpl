@@ -1,0 +1,443 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/roms/ports/cavestory/Doukutsu.exe",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch/cores/nxengine_libretro.so",
+      "core_name": "Cave Story (NXEngine)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/ports/ecwolf/WOLF3D.EXE",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch/cores/ecwolf_libretro.so",
+      "core_name": "Wolfenstein 3D (ECWolf)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/ports/xrick/data.zip",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch/cores/xrick_libretro.so",
+      "core_name": "Rick Dangerous (XRick)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atari800/Pitfall! II - Lost Caverns.rom",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch/cores/atari800_libretro.so",
+      "core_name": "Atari - 5200 (Atari800)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atari2600/H.E.R.O..a26",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch/cores/stella2014_libretro.so",
+      "core_name": "Atari - 2600 (Stella 2014)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atari800/Pitfall! II - Lost Caverns.rom",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/atari800_libretro.so",
+      "core_name": "Atari - 5200 (Atari800)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atari5200/Dig Dug (USA).a52",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/atari800_libretro.so",
+      "core_name": "Atari - 5200 (Atari800)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/ports/cavestory/Doukutsu.exe",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nxengine_libretro.so",
+      "core_name": "Cave Story (NXEngine)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame/1942.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2010_libretro.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame2003/sf2t.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2003_plus_libretro.so",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame2003/mrdo.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2003_plus_libretro.so",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame2003/sf2ce.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2003_plus_libretro.so",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/virtualboy/vb01.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mednafen_vb_libretro.so",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/zxspectrum/Jetpac (1983)(Ultimate).tap",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/fuse_libretro.so",
+      "core_name": "Sinclair - ZX Spectrum (Fuse)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/segacd/Final Fight CD (Sega CD) (U).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/genesis_plus_gx_libretro.so",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/snes/Humans.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/snes9x_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/naomi/takoron.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/snes/Street Fighter II Turbo - Hyper Fight.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/snes9x_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/snes/Super Mario World II - Yoshi's Island.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/snes9x_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/ChuChu Rocket! (US)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/neogeo/2020bb.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/fbneo_libretro.so",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Marvel vs. Capcom 2.cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/snes/Humans, The (Europe).zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/snes9x_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Super Puzzle Fighter II X for Matching Service (Japan)[English Translated][RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/The Last Golem.gdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/nes/Super Mario Bros 3mix.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/nes/Super Mario Bros III.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/nes/Super Mario Bros 3 - Mix.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/saca.bin",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/arcade/altbeast.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/fbneo_libretro.so",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Power Stone (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Dynamite Cop (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame2003/dnmtdeka.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2003_plus_libretro.so",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame/dnmtdeka.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2003_plus_libretro.so",
+      "core_name": "Arcade (MAME 2003-Plus)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/mame/dnmtdeka.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mame2010_libretro.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Ready 2 Rumble Boxing (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/naomi/gdl-0042.chd",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/naomi/Noukone Puzzle Takoron.dat",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/naomi/Noukone Puzzle Takoron.dat",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Noukone Puzzle Takoron.dat",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/Power Stone (US)[RDC].A1.bin",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/Marvel vs. Capcom 2.A1.bin",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/saca.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/minipacman.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/alienfighter.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/psmini.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/psmini-bin.bin",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/snes/Final Fight I.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/snes9x_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (Snes9x - Current)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/nes/Double Dragon II - The Revenge.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/neogeo/bstars2.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/fbneo_libretro.so",
+      "core_name": "Arcade (FinalBurn Neo)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/nes/Contra I.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/nestopia_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/ngpc/Faselei! (Europe).zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mednafen_ngp_libretro.so",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/gba/test_gba_game.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/mgba_libretro.so",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/megadrive/Altered Beast (USA, Europe).zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch/cores/genesis_plus_gx_libretro.so",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

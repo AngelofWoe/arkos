@@ -1,0 +1,90 @@
+[2020/11/24 08:50:54.058153,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 08:50:54.235863,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/24 08:56:48.073779,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 08:56:48.245680,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/24 09:01:43.350562,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 09:01:43.523194,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/24 09:16:43.949320,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 09:16:44.139475,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/30 00:16:29.141633,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/30 00:16:29.351043,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/12/16 00:43:12.416049,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/16 00:43:12.588785,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/12/19 01:35:33.774570,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 01:35:33.963893,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/12/19 01:45:55.766938,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 01:45:55.966230,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/12/19 02:42:54.918105,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 02:42:55.621926,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/12/19 02:51:44.174029,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 02:51:44.930459,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/02/20 17:54:39.283739,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/02/20 17:54:39.456361,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/02/20 18:35:49.685035,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/02/20 18:35:49.862903,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/04/30 18:22:42.084847,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/04/30 18:22:42.257725,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/04/30 20:56:14.964351,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/04/30 20:56:15.154883,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/05/01 01:58:15.917524,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 01:58:16.101557,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/05/01 01:59:33.959667,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 01:59:34.152105,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/05/01 02:03:21.001405,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 02:03:21.183568,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/05/01 20:24:26.113417,  0] ../../source3/smbd/server.c:1788(main)
+  smbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 20:24:26.320284,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections

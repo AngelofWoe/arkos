@@ -1,0 +1,11 @@
+Description=Disable Heartbeat
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/opt/bootscripts/on_boot.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+

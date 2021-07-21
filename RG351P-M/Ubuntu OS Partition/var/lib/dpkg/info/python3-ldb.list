@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.1.5.7
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/_ldb_text.py
+/usr/lib/python3/dist-packages/ldb.cpython-37m-aarch64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-ldb
+/usr/share/doc/python3-ldb/copyright
+/usr/lib/aarch64-linux-gnu/libpyldb-util.cpython-37m-aarch64-linux-gnu.so.1
+/usr/share/doc/python3-ldb/changelog.Debian.gz

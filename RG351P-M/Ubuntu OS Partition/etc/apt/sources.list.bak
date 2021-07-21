@@ -1,0 +1,5 @@
+deb http://ports.ubuntu.com/ubuntu-ports eoan main universe
+deb http://ports.ubuntu.com/ubuntu-ports eoan-updates main universe
+deb http://ports.ubuntu.com/ubuntu-ports eoan-security main universe
+
+deb http://deb.odroid.in/go2 bionic main

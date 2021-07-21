@@ -1,0 +1,10 @@
+# See sources.list(5) manpage for more information
+# Remember that CD-ROMs, DVDs and such are managed through the apt-cdrom tool.
+deb http://us.archive.ubuntu.com/ubuntu disco main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu disco main restricted
+
+deb http://security.ubuntu.com/ubuntu disco-security main restricted
+deb-src http://security.ubuntu.com/ubuntu disco-security main restricted
+
+deb http://us.archive.ubuntu.com/ubuntu disco-updates main restricted
+deb-src http://us.archive.ubuntu.com/ubuntu disco-updates main restricted

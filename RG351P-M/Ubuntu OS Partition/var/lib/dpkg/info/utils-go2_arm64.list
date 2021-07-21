@@ -1,0 +1,17 @@
+/.
+/etc
+/etc/systemd
+/etc/systemd/system
+/etc/systemd/system/audiopath.service
+/opt
+/opt/system
+/opt/system/Change Password.sh
+/opt/system/Network Info.sh
+/opt/system/Wifi.sh
+/usr
+/usr/bin
+/usr/bin/audiopath
+/usr/bin/bioscheck
+/usr/bin/msgbox
+/usr/bin/nmui
+/usr/bin/osk

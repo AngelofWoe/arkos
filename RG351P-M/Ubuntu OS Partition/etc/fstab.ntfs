@@ -1,0 +1,4 @@
+UUID=e139ce78-9841-40fe-8823-96a304a09859  /  ext4  defaults  0 1
+
+/dev/mmcblk0p1 /boot vfat defaults 0 2
+/dev/mmcblk0p3 /roms ntfs-3g umask=0000,utf8=1,noatime 0 0

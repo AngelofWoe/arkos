@@ -1,0 +1,8 @@
+/.
+/usr
+/usr/share
+/usr/share/go2_uboot
+/usr/share/go2_uboot/idbloader.img
+/usr/share/go2_uboot/sd_fusing.sh
+/usr/share/go2_uboot/trust.img
+/usr/share/go2_uboot/uboot.img

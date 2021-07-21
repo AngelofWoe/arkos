@@ -1,0 +1,4 @@
+/etc/apt/apt.conf.d/20apt-esm-hook.conf
+/etc/apt/apt.conf.d/51ubuntu-advantage-esm
+/etc/logrotate.d/ubuntu-advantage-tools
+/etc/ubuntu-advantage/uaclient.conf

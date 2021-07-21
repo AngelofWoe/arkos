@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gameList parentHash="0">
+	<game>
+		<path>./Update.sh</path>
+		<name>Update</name>
+		<playcount>1</playcount>
+		<lastplayed>20210220T180649</lastplayed>
+	</game>
+</gameList>

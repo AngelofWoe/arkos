@@ -1,0 +1,7 @@
+eb068b21a0c1251a95dfe1862274bf87  usr/lib/aarch64-linux-gnu/dri/nouveau_drv_video.so
+eb068b21a0c1251a95dfe1862274bf87  usr/lib/aarch64-linux-gnu/dri/r600_drv_video.so
+eb068b21a0c1251a95dfe1862274bf87  usr/lib/aarch64-linux-gnu/dri/radeonsi_drv_video.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/mesa-va-drivers/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/mesa-va-drivers/script
+bc4a7d45dd755690a5dbd1fe4e989a48  usr/share/doc/mesa-va-drivers/changelog.Debian.gz
+2e2ab611d68364893311e9a62c77c3a5  usr/share/doc/mesa-va-drivers/copyright

@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: bionic
+Date: Thu, 25 Mar 2021 15:24:31 UTC
+Architectures: arm64 armhf
+Components: main
+MD5Sum:
+ d188c1aeef3b5e3c6d884f00e2ca751e 1533 main/binary-arm64/Packages
+ 50d84418915f50067e07202e63bf16cf 766 main/binary-arm64/Packages.gz
+ e89c28b1abf5bb6bbd1e9a3ebe9fe004 36 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
+SHA1:
+ 29cdfceb990f078ae7f1625952ce8a724bff670a 1533 main/binary-arm64/Packages
+ 678f3cbaee4744bfbfc200c9ab85f09a8c1b5c13 766 main/binary-arm64/Packages.gz
+ 26519fde445e683e74519b33601c3901c8a45e3b 36 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
+SHA256:
+ cb23314edb52ffad79f458cf3087ac40cc391357171409f596c7208e31748e85 1533 main/binary-arm64/Packages
+ 957f6b33ed3bc26883705b2543b133bf9979d9c8e9f98cde7d3627c1292ccf01 766 main/binary-arm64/Packages.gz
+ 1d2a5a16922021225a06cc93f71f6e6008afdf7049fe22e22d7e98be73c59edf 36 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJgXKsvAAoJEFNg+52rGbrJ9O0P/iE3vhRbQD4T488oSMGS+zar
+oRWSVqfGbJBp2JX8VM1zuiy24pHIkfLsGwPqGcxaTVx9P2G5W54TKt6MZvuOwdxh
+UZ5NMrqW5+ZninYV1BATVk9pJ/v9RQimWc28LsMtGGk+7fX7XxZBz9hEM9EHDnMT
+eDkyZIHP2K27SOU7bIRnRmSC5he2G7A1m9Myfe50oZmZVHPv3EvX6mL0mjsgCxtg
+So/s6Pg90oKzj9SA1QijYExAMaPaba9YZBXi6uCI82Hf1zP7MHNtCu+UoUZVn7H0
+1wXRqK1bqkIe0SiZwcUpM9ju9FdoOkWARHkApZbDBmlUAuDISQgunul8xzpNCurB
+5yNqb0yOpLeadsDfCk8nEAnDfo8XnfXLxcm5uHqFOVa13e+BGvaIT8DU1nb5SGKk
+jyz2vLDY3tdkpnkiZFe2nafHffD8n7N1hO6HtbSv321UYpmYteSxUxMaVe5GYGgb
+k3Vzb7qYAbDco8D752HU83QI/Sm3pU8r0qDaKiFYoRUvjMaFdP8/lvYuobQP1PZt
+LDFvUUOXSQux5qvEhzyA5LqgOZlWUsdm4TLNH9Tth5RBFK1srroop5ovoVDCPsha
+xxea9KpugNUduJdpPLkhoKwStdqWslE0jqCWPuXyt8nDKhr/YJqM6hDBti6JWsjd
+o/moKsqT4alddTkX6Vhc
+=xQm7
+-----END PGP SIGNATURE-----

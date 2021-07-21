@@ -1,0 +1,140 @@
+[2020/11/24 08:50:54.606312,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 08:50:54.614288,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/11/24 08:55:38.221973,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/11/24 08:56:48.586720,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 08:56:48.596964,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/11/24 09:01:00.655125,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/11/24 09:01:43.854346,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 09:01:43.863036,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/11/24 09:10:54.513582,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/11/24 09:16:44.469842,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/24 09:16:44.479832,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/11/24 09:30:37.835530,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/11/30 00:16:29.728248,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/30 00:16:29.739249,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/11/30 00:34:09.175690,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/12/16 00:43:12.845189,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/16 00:43:12.854274,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/12/16 01:05:40.694695,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/12/19 01:35:34.236941,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 01:35:34.246065,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/12/19 01:38:14.311015,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/12/19 01:45:56.227857,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 01:45:56.237441,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/12/19 01:47:42.555908,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/12/19 02:42:55.863110,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 02:42:55.873318,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/12/19 02:46:44.819566,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2020/12/19 02:51:45.188469,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/12/19 02:51:45.199182,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2020/12/19 02:52:58.337916,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/02/20 17:54:39.713637,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/02/20 17:54:39.723628,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/02/20 18:08:41.992808,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/02/20 18:35:50.117391,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/02/20 18:35:50.126609,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/02/20 18:52:38.221907,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/04/30 18:22:42.507017,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/04/30 18:22:42.516269,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/04/30 18:23:54.131178,  0] ../../source3/libsmb/nmblib.c:916(send_udp)
+  Packet send failed to 192.168.254.255(138) ERRNO=Invalid argument
+[2021/04/30 18:24:54.188972,  0] ../../source3/nmbd/nmbd.c:359(reload_interfaces)
+  reload_interfaces: No subnets to listen to. Waiting..
+[2021/04/30 18:27:58.251495,  0] ../../source3/libsmb/nmblib.c:916(send_udp)
+  Packet send failed to 192.168.254.255(137) ERRNO=Network is unreachable
+[2021/04/30 18:27:58.251728,  0] ../../source3/nmbd/nmbd_packets.c:179(send_netbios_packet)
+  send_netbios_packet: send_packet() to IP 192.168.254.255 port 137 failed
+[2021/04/30 18:27:58.251809,  0] ../../source3/nmbd/nmbd_namequery.c:245(query_name)
+  query_name: Failed to send packet trying to query name WORKGROUP<1d>
+[2021/04/30 18:28:28.263279,  0] ../../source3/libsmb/nmblib.c:916(send_udp)
+  Packet send failed to 192.168.254.255(138) ERRNO=Invalid argument
+[2021/04/30 18:29:28.291976,  0] ../../source3/nmbd/nmbd.c:359(reload_interfaces)
+  reload_interfaces: No subnets to listen to. Waiting..
+[2021/04/30 20:55:42.087152,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/04/30 20:56:15.409159,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/04/30 20:56:15.418606,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/04/30 21:48:37.167799,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/05/01 01:58:16.356690,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 01:58:16.366305,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/05/01 01:59:07.859529,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/05/01 01:59:34.434126,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 01:59:34.443762,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/05/01 02:02:34.860986,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/05/01 02:03:21.424737,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 02:03:21.433578,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/05/01 02:18:16.794996,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/05/01 20:24:26.566121,  0] ../../source3/nmbd/nmbd.c:906(main)
+  nmbd version 4.10.7-Ubuntu started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2021/05/01 20:24:26.575258,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/05/01 20:30:29.557809,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...

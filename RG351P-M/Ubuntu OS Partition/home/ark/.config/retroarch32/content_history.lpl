@@ -1,0 +1,443 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/roms/n64/Mario Kart 64.z64",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch32/cores/parallel_n64_libretro.so",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atarilynx/Joust.zip",
+      "label": "",
+      "core_path": "/home/ark/.config/retroarch32/cores/handy_libretro.so",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/n64/Micro Machines 64 Turbo.n64",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/parallel_n64_libretro.so",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/n64/Mario Kart 64.z64",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/parallel_n64_libretro.so",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/sega32x/NBA Jam Tournament Edition.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/picodrive_libretro.so",
+      "core_name": "Sega - MS/MD/CD/32X (PicoDrive)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/quake/PAK0.PAK",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/tyrquake_libretro.so",
+      "core_name": "Quake (TyrQuake)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/quake/pak0.pak",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/tyrquake_libretro.so",
+      "core_name": "Quake (TyrQuake)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/n64/Paper Mario.z64",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/parallel_n64_libretro.so",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Marvel vs. Capcom - Clash of Super Heroes (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Marvel vs. Capcom 2.cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atarilynx/Dinolympics.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/handy_libretro.so",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Power Stone (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/ChuChu Rocket! (US)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/atarilynx/Chip's Challenge.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/handy_libretro.so",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Dynamite Cop (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Wetrix+ (US)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Confidential Mission (US)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/The Last Golem.gdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/House of the Dead 2, The (US)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Super Puzzle Fighter II X for Matching Service (Japan)[English Translated][RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Super Puzzle Fighter II X for Matching Service (Japan)[English Translated][RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Noukone Puzzle Takoron.dat",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/takoron.zip",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Super Puzzle Fighter II X for Matching Service (Japan)[DCCM].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Golem no Maigo (Japan).gdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/The Last Golem.CUE",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Saturn Bomberman (USA) (DW0837).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Super Puzzle Fighter II Turbo (USA) (DW0346).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Saturn Bomberman (USA) (DW0837).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabause_libretro.so",
+      "core_name": "Sega - Saturn (Yabause)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Sega Ages - Out Run (JAP) (v1.005) (DW0151).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabause_libretro.so",
+      "core_name": "Sega - Saturn (Yabause)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Sega Ages - Out Run (JAP) (v1.005) (DW0151).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/psx/Castlevania - Symphony of the Night.pbp",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/pcsx_rearmed_libretro.so",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Virtua Cop 2 (USA) (DW0743).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Virtua Fighter (U).iso",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Die Hard Arcade (USA) (DW0053).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Saturn Bomberman (U).iso",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabasanshiro_libretro.so",
+      "core_name": "Sega - Saturn (YabaSanshiro)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Saturn Bomberman (U).iso",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/mednafen_saturn_libretro.so",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Saturn Bomberman (U).iso",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabause_libretro.so",
+      "core_name": "Sega - Saturn (Yabause)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/saturn/Die Hard Arcade (USA) (DW0053).cue",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/yabause_libretro.so",
+      "core_name": "Sega - Saturn (Yabause)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/saca.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/psmini-bin.bin",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/psmini.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/Alien Fighter/minigame.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/vmu/Powerstone Mini/minigame.VMS",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/vemulator_libretro.so",
+      "core_name": "VeMUlator",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Ready 2 Rumble Boxing (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Power Stone 2 (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_xtreme_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast) Extreme",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Akumajou Dracula.m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Dragon Buster (1993)(Dempa).m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Dig Dug (19xx)(-)[p].m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Deflektor (1989)(BPS).m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Daimakaimura.m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Crazy Climber I & II (1993)(Dempa).m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/x68000/Alien Syndrome (1992)(Dempa).m3u",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/px68k_libretro.so",
+      "core_name": "Sharp - X68000 (PX68k)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/roms/dreamcast/Power Stone (US)[RDC].cdi",
+      "label": "",
+      "core_path": "/home/odroid/.config/retroarch32/cores/flycast_libretro.so",
+      "core_name": "Sega - Dreamcast/NAOMI (Flycast)",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

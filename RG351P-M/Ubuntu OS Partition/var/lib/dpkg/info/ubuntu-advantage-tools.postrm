@@ -1,0 +1,53 @@
+#!/bin/sh
+
+set -e
+
+
+remove_apt_auth(){
+    rm -f /etc/apt/auth.conf.d/90ubuntu-advantage
+}
+
+remove_apt_hook(){
+    rm -f /etc/apt/apt.conf.d/20apt-esm-hook.conf
+}
+
+remove_cache_dir(){
+    rm -rf /var/lib/ubuntu-advantage
+}
+
+remove_logs(){
+    rm -f /var/log/ubuntu-advantage.log*
+}
+
+remove_esm(){
+    rm -f /etc/apt/trusted.gpg.d/ubuntu-esm-v2-keyring.gpg
+    rm -f /etc/apt/sources.list.d/ubuntu-esm-trusty.list
+    rm -f /etc/apt/apt.conf.d/51ubuntu-advantage-esm
+    rm -f /etc/apt/preferences.d/ubuntu-esm-trusty
+}
+
+case "$1" in
+    purge)
+        remove_apt_auth
+        remove_apt_hook
+        remove_cache_dir
+        remove_logs
+        remove_esm
+        ;;
+esac
+
+# Automatically added by dh_installdeb/12.1.1ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/ubuntu-advantage-tools 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.1.1ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/80-livepatch 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.1.1ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/80-esm 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb/12.1.1ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/update-motd.d/99-esm 19.1~ ubuntu-advantage-tools -- "$@"
+# End automatically added section
+
+
+exit 0

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gameList parentHash="0">
+	<game>
+		<path>./File Manager.sh</path>
+		<name>File Manager</name>
+		<playcount>1</playcount>
+		<lastplayed>20210220T190304</lastplayed>
+	</game>
+</gameList>

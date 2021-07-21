@@ -1,0 +1,16 @@
+a80232bb45a32380ec8cc70d44f91540  usr/bin/curl-config
+0626a763ab9a264689d6b7c6eaa8a8ac  usr/include/aarch64-linux-gnu/curl/curl.h
+bebae58da3c78f47b7f6ad7880313e08  usr/include/aarch64-linux-gnu/curl/curlver.h
+4170929fba36ed015170d504616ba603  usr/include/aarch64-linux-gnu/curl/easy.h
+fe5571dc345881e9414cec12bd693717  usr/include/aarch64-linux-gnu/curl/mprintf.h
+c4d1b69fabb5fdd6fd32973f73d0354a  usr/include/aarch64-linux-gnu/curl/multi.h
+187a7660e7cde796f02d47e60bf3b3a6  usr/include/aarch64-linux-gnu/curl/stdcheaders.h
+aa79980cfa2d39dbe6edb918432d8990  usr/include/aarch64-linux-gnu/curl/system.h
+2e23355305365eb89bd6b585b71cee22  usr/include/aarch64-linux-gnu/curl/typecheck-gcc.h
+1f600e20372e5e4ad33226c14a141b56  usr/include/aarch64-linux-gnu/curl/urlapi.h
+e91329be1c4c1c668ab5e2632d824b28  usr/lib/aarch64-linux-gnu/libcurl.a
+fdfa7f04b8aded4ed4cd2333ba857495  usr/lib/aarch64-linux-gnu/libcurl.la
+ebe7845a2c172cfa6ecccd5e159c1b4f  usr/lib/aarch64-linux-gnu/pkgconfig/libcurl.pc
+12c272333fb88c0fca8b84a2c4dfc399  usr/share/aclocal/libcurl.m4
+bb580e986e58090bdf7124911efaa8ef  usr/share/doc/libcurl4-openssl-dev/copyright
+5f3bf9ee5592ccb6064d103b7c6f1d01  usr/share/man/man1/curl-config.1.gz

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/debug
+/usr/lib/debug/usr
+/usr/lib/debug/usr/lib
+/usr/lib/debug/usr/lib/arm-linux-gnueabihf
+/usr/lib/debug/usr/lib/arm-linux-gnueabihf/libogg.so.0.8.4
+/usr/share
+/usr/share/doc
+/usr/share/doc/libogg-dbg
+/usr/share/doc/libogg-dbg/copyright
+/usr/share/doc/libogg-dbg/changelog.Debian.gz

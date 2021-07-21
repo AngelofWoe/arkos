@@ -1,0 +1,8 @@
+76f9e18c9010700648967fdfc776ed49  usr/lib/aarch64-linux-gnu/libjpegxr.so.1.1
+f2040784a0d61a45d7abbe8ed63ad23b  usr/lib/aarch64-linux-gnu/libjxrglue.so.1.1
+15d291fcc371ca9a3858c929cdeb7815  usr/share/doc/libjxr0/JPEGXR_DPK_Spec_1.0.txt.gz
+f3aa186856721e80786a046494e9cda0  usr/share/doc/libjxr0/README.Debian
+8f7d61816fc228996fbb36a9d905a8b5  usr/share/doc/libjxr0/changelog.Debian.gz
+f366e97636209fc01ba6de4fe6ec8d02  usr/share/doc/libjxr0/copyright
+315587cd5bd610b1669a3baef5a4c946  usr/share/doc/libjxr0/readme.txt.gz
+1c0bb333d25a58ea0c2d94116f4aed11  usr/share/lintian/overrides/libjxr0

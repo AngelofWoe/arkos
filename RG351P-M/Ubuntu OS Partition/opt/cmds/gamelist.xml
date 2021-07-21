@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./retroarch32.sh</path>
+		<name>retroarch32</name>
+		<playcount>2</playcount>
+		<lastplayed>20210220T185133</lastplayed>
+	</game>
+	<game>
+		<path>./retroarch.sh</path>
+		<name>retroarch</name>
+		<playcount>2</playcount>
+		<lastplayed>20210220T185059</lastplayed>
+	</game>
+</gameList>

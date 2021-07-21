@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# (C) Copyright 2016 Hardkernel Co,.Ltd
+#
+
+d=/dev/mmcblk0
+
+mkdir -p /media/boot
+mount /dev/mmcblk0p1 /media/boot
+cp /usr/share/go2_bootini/boot.ini /media/boot/boot.ini
+umount /media/boot

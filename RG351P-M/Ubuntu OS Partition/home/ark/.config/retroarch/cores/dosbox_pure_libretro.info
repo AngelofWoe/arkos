@@ -1,0 +1,31 @@
+# Software Information
+display_name = "DOS (DOSBox Pure)"
+authors = "DOSBox Team|shellingb"
+supported_extensions = "exe|com|bat|conf|cue|iso"
+corename = "DOSBox Pure"
+categories = "Emulator"
+license = "GPLv2"
+permissions = ""
+display_version = "SVN"
+
+# Hardware Information
+manufacturer = "Microsoft"
+systemname = "DOS"
+systemid = "dos"
+
+# Libretro Features
+database = "DOS"
+supports_no_game = "false"
+savestate = "true"
+libretro_saves = "false"
+cheats = "true"
+input_descriptors = "true"
+memory_descriptors = "false"
+core_options = "true"
+core_options_version = "1.0"
+load_subsystem = "false"
+hw_render = "false"
+needs_fullpath = "true"
+disk_control = "false"
+is_experimental = "false"
+needs_kbd_mouse_focus = "true"

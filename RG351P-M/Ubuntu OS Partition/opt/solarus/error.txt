@@ -1,0 +1,1 @@
+[Solarus] [0] Warning: failed to load framebuffer extension

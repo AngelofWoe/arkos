@@ -1,0 +1,1 @@
+lastimage=logo2.bmp

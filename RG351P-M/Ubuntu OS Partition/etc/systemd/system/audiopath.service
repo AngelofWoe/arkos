@@ -1,0 +1,12 @@
+Description=ODROID Audio Path Selector
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStart=/usr/bin/audiopath
+Restart=yes
+
+[Install]
+WantedBy=multi-user.target
+

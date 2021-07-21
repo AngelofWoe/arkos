@@ -1,0 +1,11 @@
+#!/bin/sh -e
+#
+# /etc/rc.local
+#
+
+# Change OGA Game-Button-Sampling-Rate from 500Hz to 100Hz
+# See https://forum.odroid.com/viewtopic.php?f=196&t=38044
+echo 10 >  /sys/devices/platform/odroidgo2-joypad/poll_interval
+
+# Add your code before the exit  line
+exit 0

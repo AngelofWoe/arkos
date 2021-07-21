@@ -1,0 +1,5 @@
+[Let adm group shutdown]
+Identity=unix-group:adm
+Action=org.freedesktop.login1.set-wall-message;org.freedesktop.login1.reboot;org.freedesktop.login1.power-off
+ResultAny=yes
+

@@ -1,0 +1,4 @@
+af5d3acb98882ba67900ca68a410d754  usr/include/xcb/sync.h
+ab2de20ac853b4455090a14629b629b2  usr/lib/aarch64-linux-gnu/libxcb-sync.a
+8bad53b973208c049577cb8c4bf70b79  usr/lib/aarch64-linux-gnu/pkgconfig/xcb-sync.pc
+618ee90893b45d0d0c19d41a3a3d2e7d  usr/share/doc/libxcb-sync-dev/copyright

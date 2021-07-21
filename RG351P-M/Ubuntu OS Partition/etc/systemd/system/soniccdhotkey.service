@@ -1,0 +1,15 @@
+[Unit]
+Description=soniccd Exit Hotkey service
+
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+
+ExecStart=/usr/local/bin/soniccdkeydemon.py
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,10 @@
+cf368ebb453bffe1e95d5850d8461239  usr/lib/arm-linux-gnueabihf/sasl2/libanonymous.so.2.0.25
+e03bfd28d25831131727063ee941b51c  usr/lib/arm-linux-gnueabihf/sasl2/libcrammd5.so.2.0.25
+fbfe4cc9ba634044551a12871af0eecf  usr/lib/arm-linux-gnueabihf/sasl2/libdigestmd5.so.2.0.25
+5e0b9b9aa7ba8f776ad3dc621bd7b203  usr/lib/arm-linux-gnueabihf/sasl2/liblogin.so.2.0.25
+f9a56f9b92415c1222250b5b59c99421  usr/lib/arm-linux-gnueabihf/sasl2/libntlm.so.2.0.25
+fe90ff294feebfd608084fc4deb235c6  usr/lib/arm-linux-gnueabihf/sasl2/libplain.so.2.0.25
+cba810b73f30ce64df6e67ece59d3459  usr/share/doc/libsasl2-modules/NEWS.Debian.gz
+6c390548c1ab6d9ee5864997724a3ae4  usr/share/doc/libsasl2-modules/changelog.Debian.gz
+b0aea31008af10081c9e1367feea97d6  usr/share/doc/libsasl2-modules/copyright
+7b9adf3f4e6435d2d64847ebfb54a297  usr/share/lintian/overrides/libsasl2-modules

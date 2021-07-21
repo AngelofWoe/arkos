@@ -1,0 +1,5 @@
+d7780662d5621215c8ffc0effcbc19a0  usr/bin/brightnessctl
+a84dedbdfa3d1a07e60b18c3cf0402c7  usr/share/doc/brightnessctl/README.md
+25695f6a72946daa02de8810442f79ce  usr/share/doc/brightnessctl/changelog.Debian.gz
+c3364c2a89b7254eb66c1ff598ab5b5c  usr/share/doc/brightnessctl/copyright
+7db231dd9682e660c0033d59b5756cba  usr/share/man/man1/brightnessctl.1.gz

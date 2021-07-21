@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# (C) Copyright 2016 Hardkernel Co,.Ltd
+#
+
+d=/dev/mmcblk0
+
+IDBLOADER=/usr/share/go2_uboot/idbloader.img
+UBOOT=/usr/share/go2_uboot/uboot.img
+TRUST=/usr/share/go2_uboot/trust.img
+
+sudo dd if=$IDBLOADER of=$d conv=fsync bs=512 seek=64
+sudo dd if=$UBOOT of=$d conv=fsync bs=512 seek=16384
+sudo dd if=$TRUST of=$d conv=fsync bs=512 seek=24576
+

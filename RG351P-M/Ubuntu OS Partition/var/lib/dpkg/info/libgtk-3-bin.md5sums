@@ -1,0 +1,12 @@
+43022b2c1441684a2835f0c0605ad5c5  usr/bin/broadwayd
+9d0aa319c1c46468c637c752e00873e4  usr/bin/gtk-builder-tool
+1e582c70126fa6c0948c69f4ab50fddf  usr/bin/gtk-launch
+c5ec32d4f9cbfb402ed7c65d25666be1  usr/bin/gtk-query-settings
+b8f4afee0915449bae10babe906d6eee  usr/share/doc/libgtk-3-bin/copyright
+fcac07ba23461f0e839d198d174b8e08  usr/share/gettext/its/gtkbuilder.its
+259afb64ae43bfb7f47db92189704f04  usr/share/gettext/its/gtkbuilder.loc
+22be56aa01149d42e35b8a3154b6b0a7  usr/share/man/man1/broadwayd.1.gz
+2546eb11b5a931f88fc3f42c228ecbb1  usr/share/man/man1/gtk-builder-tool.1.gz
+e8da445177c1c3de10e3bbfc895a1995  usr/share/man/man1/gtk-launch.1.gz
+d16f96b5260d4199ddfed4140436d971  usr/share/man/man1/gtk-query-immodules-3.0.1.gz
+6b322f8bba151fcf3eb5a18c0f86ab27  usr/share/man/man1/gtk-query-settings.1.gz

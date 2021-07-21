@@ -1,0 +1,22 @@
+#!/bin/bash
+
+case $1 in
+   pre)
+	# workaround until dwc2 is fixed
+	modprobe -r dwc2
+	/usr/sbin/alsactl store -f /var/local/asound.state
+	;;
+   post)
+	/usr/sbin/alsactl restore -f /var/local/asound.state
+	modprobe -r dwc2
+	modprobe -i dwc2
+	sleep 2
+	sudo systemctl restart oga_events
+	systemctl is-active --quiet solarushotkey.service && sudo systemctl restart solarushotkey
+        systemctl is-active --quiet pico8hotkey.service && sudo systemctl restart pico8hotkey
+        systemctl is-active --quiet ppsspphotkey.service && sudo systemctl restart ppsspphotkey
+        systemctl is-active --quiet openborhotkey.service && sudo systemctl restart openborhotkey
+        systemctl is-active --quiet ti99hotkey.service && sudo systemctl restart ti99hotkey
+	;;
+esac
+

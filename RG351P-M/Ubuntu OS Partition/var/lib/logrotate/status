@@ -1,0 +1,25 @@
+logrotate state -- version 2
+"/var/log/syslog" 2020-9-6-0:0:45
+"/var/log/dpkg.log" 2020-11-11-0:0:55
+"/var/log/auth.log" 2020-9-6-0:0:45
+"/var/log/apt/term.log" 2020-11-11-0:0:55
+"/var/log/ppp-connect-errors" 2020-5-10-4:0:0
+"/var/log/apt/history.log" 2020-11-11-0:0:55
+"/var/log/samba/log.smbd" 2020-11-24-8:50:25
+"/var/log/alternatives.log" 2020-10-9-1:0:16
+"/var/log/mail.log" 2020-5-10-4:0:0
+"/var/log/debug" 2020-5-10-4:0:0
+"/var/log/kern.log" 2020-9-6-0:0:45
+"/var/log/daemon.log" 2020-5-10-4:0:0
+"/var/log/wtmp" 2020-5-10-4:0:0
+"/var/log/mail.warn" 2020-5-10-4:0:0
+"/var/log/ubuntu-advantage.log" 2020-5-10-4:0:0
+"/var/log/btmp" 2020-11-11-0:0:55
+"/var/log/mail.err" 2020-5-10-4:0:0
+"/var/log/lpr.log" 2020-5-10-4:0:0
+"/var/log/samba/log.nmbd" 2020-11-24-8:50:25
+"/var/log/samba/log.samba" 2020-5-10-4:0:0
+"/var/log/user.log" 2020-5-10-4:0:0
+"/var/log/mail.info" 2020-5-10-4:0:0
+"/var/log/cron.log" 2020-5-10-4:0:0
+"/var/log/messages" 2020-5-10-4:0:0
