@@ -24,7 +24,6 @@ main () {
     echo dmc_ondemand > /sys/devices/platform/dmc/devfreq/dmc/governor
 }
 
-
 # Make sure script is running directly
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
