@@ -2,6 +2,7 @@
 
 # Main
 main () {
+    sleep 30
     sudo chmod 777 /sys/class/gpio/export
     echo 77 | sudo tee /sys/class/gpio/export > /dev/null
     sudo chmod 777 /sys/class/gpio/gpio77/direction
