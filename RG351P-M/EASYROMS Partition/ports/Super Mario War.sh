@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# From AnberPorts
+
 # Main
 main () {
-    /opt/VVVVVV/VVVVVV
+    cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/smw-netplay" || exit
+    ./smw
 }
 
 # Make sure script is running directly

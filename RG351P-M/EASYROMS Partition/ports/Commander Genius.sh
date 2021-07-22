@@ -1,2 +1,11 @@
 #!/bin/bash
-/home/ark/.config/CGenius/CGeniusExe
+
+# Main
+main () {
+    /home/ark/.config/CGenius/CGeniusExe
+}
+
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi

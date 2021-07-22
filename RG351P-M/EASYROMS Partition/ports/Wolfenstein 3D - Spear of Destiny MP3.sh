@@ -5,9 +5,9 @@
 # Main
 main () {
     cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/ecwolf" || exit
-    SDL_GAMECONTROLLERCONFIG="$(cat gamecontrollerdb.txt)"
+    SDL_GAMECONTROLLERCONFIG="$( cat gamecontrollerdb.txt )"
     export SDL_GAMECONTROLLERCONFIG
-    ./ecwolf --config ./ecwolf.cfg --data WL6
+    ./ecwolf --config ./ecwolf.cfg --data SD3
     unset SDL_GAMECONTROLLERCONFIG
 }
 
