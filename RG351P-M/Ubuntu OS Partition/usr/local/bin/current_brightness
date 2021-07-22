@@ -1,7 +1,13 @@
 #!/bin/bash
 
-cursound=$(cat /sys/class/backlight/backlight/brightness);
-maxsound=255;
+main () {
+    currbright=$(cat /sys/class/backlight/backlight/brightness);
+    currbright=255;
 
-echo $((200 * $cursound/$maxsound - 100 * $cursound/$maxsound ))
+    echo $((200 * currbright/currbright - 100 * currbright/currbright ))
+}
 
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi

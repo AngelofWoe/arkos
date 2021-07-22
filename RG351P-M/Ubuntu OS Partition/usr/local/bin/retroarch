@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-/opt/retroarch/bin/retroarch -c /home/ark/.config/retroarch/retroarch.cfg "$@"
+# Main
+main () {
+    /opt/retroarch/bin/retroarch -c /home/ark/.config/retroarch/retroarch.cfg "$@"
+}
+
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi

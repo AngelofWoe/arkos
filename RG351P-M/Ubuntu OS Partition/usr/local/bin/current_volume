@@ -1,3 +1,11 @@
 #!/bin/bash
 
-awk -F'[][]' '/Left:/ { print $2 }' <(amixer sget Playback)
+# Main
+main () {
+    awk -F'[][]' '/Left:/ { print $2 }' <(amixer sget Playback)
+}
+
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi

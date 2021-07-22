@@ -5,11 +5,19 @@ function current() {
 }
 
 function available() {
-	cat /usr/share/zoneinfo/zone1970.tab | grep -v "^#" | awk '{ print $3 }' | sort -u | tr '\n' ','
+	grep -v "^#" /usr/share/zoneinfo/zone1970.tab | awk '{ print $3 }' | sort -u | tr '\n' ','
 }
 
-cmd=${1}
-shift
-$cmd "$@"
+# Main
+main () {
+	cmd="${1}"
+	shift
+	"${cmd}" "$@"
 
-exit 0
+	exit 0
+}
+
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
