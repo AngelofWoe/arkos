@@ -1,0 +1,12 @@
+[Unit]
+Description=Battery LED Fix Service
+
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+
+ExecStart=/usr/local/bin/fix_power_led.sh
+
+[Install]
+WantedBy=multi-user.target
