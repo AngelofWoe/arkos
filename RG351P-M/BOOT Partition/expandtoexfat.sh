@@ -10,8 +10,7 @@ cleanup () {
     reboot
 }
 
-# Main
-main () {
+extend_exfat () {
     sudo umount /roms
     sudo ln -s /dev/mmcblk0 /dev/hda
     sudo ln -s /dev/mmcblk0p3 /dev/hda3
@@ -45,8 +44,11 @@ main () {
     sudo rm -f /boot/doneit
     sudo rm -f /roms.tar
     sudo rm -f /boot/fstab.exfat
-    exitcode=$?
-    if [ $exitcode -eq 0 ]; then
+}
+
+# Main
+main () {
+    if [ "$( extend_exfat )" -eq 0 ]; then
         msgbox "Completed expansion of EASYROMS partition and conversion to exfat. System will reboot and load Emulationstation now after you hit the A button." 
     else
         msgbox "EASYROMS partition expansion and conversion to exfat failed for an unknown reason.  Please expand the partition using an alternative tool such as Minitool Partition Wizard.  System will reboot and load Emulationstation now after you hit the A button."
