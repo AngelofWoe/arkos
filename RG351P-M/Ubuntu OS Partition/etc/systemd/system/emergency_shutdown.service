@@ -1,0 +1,14 @@
+[Unit]
+Description=Emergency Shutdown Service
+
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=2
+
+ExecStart=/usr/local/bin/emergency_shutdown.sh
+
+[Install]
+WantedBy=multi-user.target
