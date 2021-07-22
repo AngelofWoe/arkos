@@ -2,9 +2,9 @@
 
 main () {
     currbright=$(cat /sys/class/backlight/backlight/brightness);
-    currbright=255;
+    maxbright=255;
 
-    echo $((200 * currbright/currbright - 100 * currbright/currbright ))
+    echo $((200 * currbright/maxbright - 100 * currbright/maxbright ))
 }
 
 # Make sure script is running directly
