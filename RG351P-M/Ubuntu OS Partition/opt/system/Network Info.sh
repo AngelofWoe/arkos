@@ -24,7 +24,7 @@ main () {
 	for i in "${array[@]}"; do
 		connection_id=$( nmcli -g connection.id c s "${i}" )
 		connection_info=$( nmcli -m tabular -f ip4.address,ip4.gateway,ip4.domain c s "${i}" )
-		msgbox "$( printf "CONNECTION\n%s\n\n%s" "${connection_id}" "${connection_info}" )"
+		msgbox "$( printf "CONNECTION\n%s\n\n     %s" "${connection_id}" "${connection_info}" )"
 	done
 
 	cleanup
