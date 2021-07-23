@@ -4,7 +4,7 @@
 main () {
     SDL_GAMECONTROLLERCONFIG="$( cat /roms/ports/sonic1/gamecontrollerdb.txt )"
     export SDL_GAMECONTROLLERCONFIG
-    /roms/ports/sonic1/sonic2013
+    /usr/local/bin/sonic2013
     unset SDL_GAMECONTROLLERCONFIG
 }
 

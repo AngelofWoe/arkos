@@ -5,7 +5,7 @@ main () {
     sudo systemctl start soniccdhotkey.service
     SDL_GAMECONTROLLERCONFIG="$( cat /roms/ports/soniccd/gamecontrollerdb.txt )"
     export SDL_GAMECONTROLLERCONFIG
-    /roms/ports/sonic3/soniccd
+    /usr/local/bin/soniccd
     unset SDL_GAMECONTROLLERCONFIG
     sudo systemctl stop soniccdhotkey.service
 }
