@@ -20,7 +20,7 @@ killes () {
     if [[ -n "${espid}" ]]; then
         touch /tmp/es-shutdown && chown ark:ark /tmp/es-shutdown
         pkill -P "${espid}"
-		while pgrep -f "/bin/sh /usr/bin/emulationstation/emulationstation.sh" >/dev/null; do 
+		while pgrep -f "/bin/sh /usr/bin/emulationstation/emulationstation.sh" >/dev/null; do
 			sleep 1
 		done
     fi
@@ -45,7 +45,7 @@ main () {
 	
 	while true; do
 		currbattlevel=$( cat "${battlife}" )
-		
+
 		if [ "${currbattlevel}" -le 15 ]; then
 			em_shutdown
 		elif [ "${currbattlevel}" -le 20 ]; then
@@ -59,7 +59,7 @@ main () {
 		elif [ "${currbattlevel}" -gt 50 ]; then
 			sleep 30
 		fi
-	done		
+	done
 }
 
 # Make sure script is running directly

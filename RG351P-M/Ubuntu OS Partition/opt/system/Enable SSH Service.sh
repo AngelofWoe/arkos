@@ -4,7 +4,7 @@
 main () {
     GW=$( ip route | awk '/default/ { print $3 }' )
     if [ -n "$GW" ]; then
-        printf "\n\n\e[32mEnabling SSH Service.  Please wait...\n"							
+        printf "\n\n\e[32mEnabling SSH Service.  Please wait...\n"
         sudo systemctl start ssh.service
         printf "\n\n\n\e[32mSSH Service has been enabled.\n"
         printf "Your IP is: %s\n\n" "$( ip route | awk '/src/ { print $9 }' )"

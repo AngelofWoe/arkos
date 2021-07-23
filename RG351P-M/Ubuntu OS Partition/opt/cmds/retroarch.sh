@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-/usr/local/bin/retroarch "$@"
+# Main
+main () {
+    /usr/local/bin/retroarch "$@"
+}
+
+# Make sure script is running directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
