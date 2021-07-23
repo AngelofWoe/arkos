@@ -3,7 +3,7 @@
 # Main
 main () {
     # Source config file
-    if . /home/ark/.config/launchimage.cfg; then
+    if . /home/ark/.config/arkos.cfg; then
         if [[ "${launchimage}" == "jpg" ]]; then # Switch from JPG to ASCII
             printf "\n\e[32mChanging to launchimage.ascii\n"
             sleep 2

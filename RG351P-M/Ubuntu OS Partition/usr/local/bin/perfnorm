@@ -2,7 +2,7 @@
 
 # Main
 main () {
-    . /home/ark/.config/launchimage.cfg
+    . /home/ark/.config/arkos.cfg
 
     clear > /dev/tty1
 

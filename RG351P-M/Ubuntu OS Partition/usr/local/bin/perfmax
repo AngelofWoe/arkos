@@ -5,7 +5,7 @@ main () {
     clear > /dev/tty1
     rm /home/ark/.asoundrc
 
-    . /home/ark/.config/launchimage.cfg
+    . /home/ark/.config/arkos.cfg
 
     if [[ "${launchimage}" == "jpg" ]]; then
         if [ -f "/roms/launchimages/loading.jpg" ]; then
