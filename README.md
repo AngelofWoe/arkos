@@ -44,4 +44,4 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
   * Themes installed by default have been updated to the most recent versions.
 
 First 'release' image download:
-<PENDING>
+-PENDING-
