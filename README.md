@@ -44,4 +44,4 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
   * Themes installed by default have been updated to the most recent versions.
 
 First 'release' image download:
-ArkOS 0.001 First Release - [Google Drive](https://drive.google.com/file/d/1Ydg5xgxVrbHSm58-6Om6AH8qcnPmYvu2/view?usp=sharing}
+ArkOS 0.001 First Release - [Google Drive](https://drive.google.com/file/d/1Ydg5xgxVrbHSm58-6Om6AH8qcnPmYvu2/view?usp=sharing)
