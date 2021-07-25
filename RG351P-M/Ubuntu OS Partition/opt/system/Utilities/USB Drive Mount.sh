@@ -2,6 +2,8 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     if [ ! -d "/mnt/usbdrive/" ]; then
         sudo mkdir /mnt/usbdrive
     fi
@@ -11,11 +13,7 @@ main () {
         filesystem="ntfs-3g"
     fi
 
-    sudo mount -t "${filesystem}" /dev/sda1 /mnt/usbdrive -o uid=1000
-    status=$?
-
-    if test $status -eq 0
-    then
+    if sudo mount -t "${filesystem}" /dev/sda1 /mnt/usbdrive -o uid=1000 ; then
         printf "\n\n\e[32m%s USB drive is mounted to /mnt/usbdrive...\n" "${filesystem}"
         printf "\033[0m"
         sleep 3
@@ -24,6 +22,7 @@ main () {
         printf "\033[0m"
         sleep 3
     fi
+    clear
 }
 
 # Make sure script is running directly
