@@ -6,7 +6,6 @@ start_oga () {
 	sleep 1
 	sudo ln -s /dev/input/event3 /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
 	sleep 1
-	sudo chmod 777 /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
 }
 
 # Ask for old password and new password then attempt to change it
@@ -31,9 +30,12 @@ cleanup () {
 
 # Main
 main () {
+	printf "\033c" >> /dev/tty1
+	clear
 	start_oga
 	change_pass
 	cleanup
+	clear
 }
 
 # Make sure script is running directly
