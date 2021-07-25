@@ -2,6 +2,8 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     . /home/ark/.config/arkos.cfg
     if [[ "${esscreenmode}" == "fullscreen" ]]; then
         sudo cp -f /usr/bin/emulationstation/emulationstation.header /usr/bin/emulationstation/emulationstation
@@ -11,6 +13,7 @@ main () {
         sed -i 's/esscreenmode="header"/esscreenmode="fullscreen"/g' /home/ark/.config/arkos.cfg
     fi
     printf "\033c" | sudo tee -a /dev/tty1 > /dev/null
+    clear
     sudo systemctl restart emulationstation
 }
 

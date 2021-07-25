@@ -16,9 +16,12 @@ cleanup () {
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     oga_start
     sudo nmui
     cleanup
+    clear
 }
 
 # Make sure script is running directly

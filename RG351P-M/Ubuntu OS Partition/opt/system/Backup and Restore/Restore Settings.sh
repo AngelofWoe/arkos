@@ -2,6 +2,7 @@
 
 # Main
 main () {
+	printf "\033c" >> /dev/tty1
 	clear
 	BACKUP_DIR="/roms/backup"
 	BACKUP_FILE="${BACKUP_DIR}/arkosbackup.tar.gz"

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 main () {
+	printf "\033c" >> /dev/tty1
 	clear
 	BACKUP_DIR="/roms/backup"
 	LOG_FILE="${BACKUP_DIR}/arkosbackup.log"
