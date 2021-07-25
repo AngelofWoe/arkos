@@ -3,6 +3,7 @@
 # Main
 main () {
     SERVICE="batt_led_fix.service"
+    
     if ! systemctl is-enabled --quiet "${SERVICE}"; then
         printf "\n\n\e[32mEnabling Battery LED Fix Service on Boot. Please wait...\n"
         sudo systemctl enable "${SERVICE}"
