@@ -1,0 +1,23 @@
+[Unit]
+Description=Remote File Browser Service
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=2
+
+ExecStartPre=timedatectl set-ntp 1
+ExecStartPre=systemctl start smbd
+ExecStartPre=systemctl start nmbd
+
+ExecStart=filebrowser -a 0.0.0.0 -p 80 -d /home/ark/.config/filebrowser.db
+
+ExecStopPost=systemctl stop nmbd
+ExecStopPost=systemctl stop smbd
+ExecStopPost=timedatectl set-ntp 0
+
+[Install]
+WantedBy=multi-user.target
