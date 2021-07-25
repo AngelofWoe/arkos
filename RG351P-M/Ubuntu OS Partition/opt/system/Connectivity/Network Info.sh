@@ -16,6 +16,8 @@ cleanup () {
 
 # Main
 main () {
+	printf "\033c" >> /dev/tty1
+	clear
 	start_oga
 
 	array=("$(nmcli -g uuid c s --active)")
@@ -27,6 +29,7 @@ main () {
 	done
 
 	cleanup
+	clear
 }
 
 # Make sure script is running directly

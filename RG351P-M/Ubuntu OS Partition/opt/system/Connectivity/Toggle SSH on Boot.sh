@@ -2,6 +2,8 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     SERVICE="ssh.service"
     
     if ! systemctl is-enabled --quiet "${SERVICE}"; then
@@ -14,6 +16,7 @@ main () {
         printf "\n\n\n\e[32mSSH on Boot has been disabled. You will need to reboot or disable SSH separately.\n"
         sleep 2
     fi
+    clear
 }
 
 # Make sure script is running directly

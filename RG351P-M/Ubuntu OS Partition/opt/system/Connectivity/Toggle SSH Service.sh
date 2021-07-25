@@ -2,8 +2,10 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     SERVICE="ssh.service"
-    
+
     if ! systemctl is-active --quiet "${SERVICE}"; then
         GW="$( ip route | awk '/default/ { print $3 }' )"
         if [ -n "$GW" ]; then
@@ -21,6 +23,7 @@ main () {
         printf "\n\n\n\e[32mSSH Service has been disabled.\n"
         sleep 2
     fi
+    clear
 }
 
 # Make sure script is running directly

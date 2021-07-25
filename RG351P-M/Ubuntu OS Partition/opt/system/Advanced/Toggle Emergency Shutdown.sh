@@ -2,6 +2,8 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     SERVICE="emergency_shutdown.service"
 
     if ! systemctl is-enabled --quiet "${SERVICE}" || ! systemctl is-active --quiet "${SERVICE}"; then
@@ -16,6 +18,7 @@ main () {
         printf "\n\n\n\e[32mEmergency Shutdown Service has been disabled.\n"
         sleep 2
     fi
+    clear
 }
 
 # Make sure script is running directly

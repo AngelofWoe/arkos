@@ -2,6 +2,8 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     if [[ "$( nmcli radio wifi )" == "enabled" ]]; then
         sudo nmcli r wifi off
         if [[ "$( nmcli radio wifi )" != "disabled" ]]; then
@@ -18,6 +20,7 @@ main () {
         fi
     fi
     sleep 1
+    clear
 }
 
 # Make sure script is running directly

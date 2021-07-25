@@ -2,6 +2,7 @@
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
     clear
     SERVICE="remote_file_browser.service"
 

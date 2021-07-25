@@ -9,6 +9,8 @@ ledfix () {
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     printf "\033c" | sudo tee -a /dev/tty1 > /dev/null
     printf "\n\e[32mAttempting to fix Battery LED. Please wait...\n"
     if ! [[ -d /sys/class/gpio/gpio77 ]] || ! [[ -f /sys/class/gpio/gpio77/direction ]] || ! [[ -f /sys/class/gpio/gpio77/value ]]; then
@@ -19,6 +21,7 @@ main () {
     fi
     sleep 5
     printf "\033c" | sudo tee -a /dev/tty1 > /dev/null
+    clear
 }
 
 # Make sure script is running directly
