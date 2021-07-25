@@ -3,8 +3,9 @@
 # Start rg351p-js2xbox for i/o
 start_oga () {
     sudo rg351p-js2xbox --silent -t oga_joypad &
+    sleep 1
     sudo ln -s /dev/input/event3 /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
-    sudo chmod 777 /dev/input/by-path/platform-odroidgo2-joypad-event-joystick
+    sleep 1
   }
 
 # Cleanup rg351p-js2xbox
@@ -15,6 +16,8 @@ cleanup () {
 
 # Main
 main () {
+    printf "\033c" >> /dev/tty1
+    clear
     start_oga
 
     LOG_FILE="/roms/backup/lastarkosrestore.log"
@@ -23,12 +26,13 @@ main () {
     my_var=$( osk "Enter OK here to proceed." | tail -n 1 )
 
     if [[ "${my_var}" = OK ]] || [[ "${my_var}" = ok ]] ; then
-      cp -f /home/ark/.config/retroarch/retroarch-core-options.cfg.bak /home/ark/.config/retroarch/retroarch-core-options.cfg
+        cp -f /home/ark/.config/retroarch/retroarch-core-options.cfg.bak /home/ark/.config/retroarch/retroarch-core-options.cfg
     else
-      sudo msgbox "You didn't type OK.  This script will exit now and no changes have been made from this process."
-      printf "You didn't type OK.  This script will exit now and no changes have been made from this process." | tee -a "${LOG_FILE}"
+        sudo msgbox "You didn't type OK.  This script will exit now and no changes have been made from this process."
+        printf "You didn't type OK.  This script will exit now and no changes have been made from this process." | tee -a "${LOG_FILE}"
     fi
     cleanup
+    clear
 }
 
 # Make sure script is running directly
