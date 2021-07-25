@@ -45,5 +45,6 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
 
 First 'release' image download:
 ArkOS 0.01 First Release - [Google Drive](https://drive.google.com/file/d/1zM76L6_Aj5rzWgfLV2W4gBX1GcTTA0b0/view?usp=sharing)
+
 Known Issues:
 * Backup Settings reports failure when successful. The script has been updated and the image will be updated ASAP.
