@@ -2,15 +2,17 @@
 
 main () {
 	clear
-	LOG_FILE="/roms/backup/arkosbackup.log"
+	BACKUP_DIR="/roms/backup"
+	LOG_FILE="${BACKUP_DIR}/arkosbackup.log"
+	BACKUP_FILE="${BACKUP_DIR}/arkosbackup.tar.gz"
 	printf "\033[0mCreating a backup.  Please wait...\n"
 	sleep 2
 
-	if [ ! -d "/roms/backup/" ]; then
-		sudo mkdir -v /roms/backup
+	if [ ! -d "${BACKUP_DIR}" ]; then
+		sudo mkdir -v "${BACKUP_DIR}"
 	fi
-	if [ -f "/roms/backup/arkosbackup.tar.gz" ]; then
-		sudo rm /roms/backup/arkosbackup.tar.gz
+	if [ -f "${BACKUP_FILE}" ]; then
+		sudo rm "${BACKUP_FILE}"
 	fi
 	if [ -f "${LOG_FILE}" ]; then
 		sudo rm "${LOG_FILE}"
@@ -20,7 +22,7 @@ main () {
 	sudo chmod 666 /dev/tty1
 	tail -f "${LOG_FILE}" >> /dev/tty1 &
 
-	if sudo tar -zchvf /roms/backup/arkosbackup.tar.gz /etc/localtime /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg | sudo tee -a "${LOG_FILE}"; then
+	if sudo tar -zchvf "${BACKUP_FILE}" /etc/localtime /etc/NetworkManager/system-connections /home/ark/.config/retroarch/retroarch.cfg /home/ark/.config/retroarch/config /home/ark/.config/retroarch32/retroarch.cfg /home/ark/.config/retroarch32/config /home/ark/.emulationstation/collections /home/ark/.emulationstation/es_settings.cfg /opt/amiberry/savestates /opt/amiberry/whdboot /opt/mupen64plus/InputAutoCfg.ini /opt/drastic/config/drastic.cfg | sudo tee -a "${LOG_FILE}"; then
 		printf "\n\n\e[32mThe backup completed successfuly. \nYour settings backup is located in the backup folder on the easyroms partition and is named arkosbackup.tar.gz. \nKeep it somewhere safe! \n"  | tee -a "${LOG_FILE}"
 		printf "\033[0m"  | tee -a "${LOG_FILE}"
 		sleep 10
@@ -29,6 +31,7 @@ main () {
 		printf "\033[0m" | tee -a "${LOG_FILE}"
 		sleep 10
 	fi
+	clear
 }
 
 # Make sure script is running directly
