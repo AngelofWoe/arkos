@@ -13,7 +13,7 @@ main () {
         filesystem="ntfs-3g"
     fi
 
-    if sudo mount -t "${filesystem}" /dev/sda1 /mnt/usbdrive -o uid=1000 ; then
+    if sudo mount -t "${filesystem}" /dev/sda1 /mnt/usbdrive -o uid=1002 ; then
         printf "\n\n\e[32m%s USB drive is mounted to /mnt/usbdrive...\n" "${filesystem}"
         printf "\033[0m"
         sleep 3
