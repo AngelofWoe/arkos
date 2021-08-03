@@ -44,7 +44,7 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
   * Themes installed by default have been updated to the most recent versions.
 
 First 'release' image download:
-ArkOS 0.01 First Release - [Google Drive](https://drive.google.com/file/d/1zM76L6_Aj5rzWgfLV2W4gBX1GcTTA0b0/view?usp=sharing)
+ArkOS 0.02 - [Google Drive](https://drive.google.com/file/d/1Rpkl6SvvIONdaGoTKqDyLSgLu0h_5gJ5/view?usp=sharing)
 
 Known Issues:
 * Backup Settings reports failure when successful. The script has been updated and the image will be updated ASAP.
