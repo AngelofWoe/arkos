@@ -34,7 +34,8 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
   * Tons of changes to scripts running games and such to try and improve some stability issues as well as better follow modern bash guidelines.
   * Switch to zsh as the default user shell instead of bash.
   * Making lots of repeated code functions so they can be combined into includable universal scripts later.
-* Retroarch configuration changes
+* Retroarch
+  * Updated to 1.9.6
   * Most systems have had auto-savestates enabled when quitting Retroarch/Retroarch32, so that when the system shuts down your current state is saved.
   * Rewind/Fast-forward are enabled and have hotkeys configured. Holding select + L2 rewinds and select + R2 toggles fast foward.
   * Most of the settings recommendations at [Retro Game Corps](https://retrogamecorps.com) have been applied.
@@ -42,6 +43,3 @@ Changes from [christianhaitian's](https://github.com/christianhaitian) [ArkOS](h
   * I haven't requested permission from the AnberPorts developer to include their scripts in here so I have not, but I have rewritten some of their scripts slightly to more of my liking. They're currently in the [roms/ports](https://github.com/AngelofWoe/arkos/tree/main/RG351P-M/EASYROMS%20Partition/ports) folder here. The changes are very minimal, [krishenriksen](https://github.com/krishenriksen) has a very nice scripting style.
 * Themes
   * Themes installed by default have been updated to the most recent versions.
-
-First 'release' image download:
-ArkOS 0.02 - [Google Drive](https://drive.google.com/file/d/1Rpkl6SvvIONdaGoTKqDyLSgLu0h_5gJ5/view?usp=sharing)
